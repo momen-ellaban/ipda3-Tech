@@ -55,7 +55,7 @@ $('.owl-carousel.customer').owlCarousel({
 // loading js  
 
 $(window).on('load', function () {
-    $('.loading-override .spinner').fadeOut(2000,
+    $('.loading-override .spinner').fadeOut(500,
         function() {
             $(this).parent().fadeOut(500,
                 function() {
